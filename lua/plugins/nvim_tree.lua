@@ -16,4 +16,12 @@ return {
       },
     },
   },
+  keys = {
+    {
+
+      "<leader>e",
+      "<cmd>Neotree focus<cr>",
+      { desc = "Focus Neotree", remap = false },
+    },
+  },
 }

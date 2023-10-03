@@ -18,3 +18,5 @@ if vim.g.neovide then
   map("t", "<D-v>", "<C-R>+", { noremap = true, silent = true, desc = "Paste" })
   map("v", "<D-v>", "<C-R>+", { noremap = true, silent = true, desc = "Paste" })
 end
+
+vim.opt.swapfile = false

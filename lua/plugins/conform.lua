@@ -18,8 +18,23 @@ return {
     -- Define your formatters
     formatters_by_ft = {
       lua = { "stylua" },
+      go = { "goimports", "gofmt" },
       python = { "isort", "black" },
       javascript = { { "prettierd", "prettier" } },
+      typescript = { { "prettierd", "prettierd" } },
+      vue = { { "prettierd", "prettierd" } },
+      html = { { "prettierd", "prettierd" } },
+      javascriptreact = { { "prettierd", "prettierd" } },
+      typescriptreact = { { "prettierd", "prettierd" } },
+      css = { { "prettierd", "prettierd" } },
+      sass = { { "prettierd", "prettierd" } },
+      scss = { { "prettierd", "prettierd" } },
+      json = { { "prettierd", "prettierd" } },
+      jsonc = { { "prettierd", "prettierd" } },
+      yaml = { { "prettierd", "prettierd" } },
+      markdown = { { "prettierd", "prettierd" } },
+      graphql = { { "prettierd", "prettierd" } },
+      handlebars = { { "prettierd", "prettierd" } },
     },
     -- Set up format-on-save
     -- format_on_save = { timeout_ms = 500, lsp_fallback = true },
